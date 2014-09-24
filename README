@@ -1,1 +1,10 @@
 OS Labs
+These were lab questions related to multi-thread programming, using semaphores and pipes to control concurrent processes' access to a critical section. These were exercises for CS 2106 Operating Systems at National University of Singapore.
+
+fibonacci.c - Pipe practice - Computing fibonacci numbers by spawning new processes
+slowincrement.c - Enforce proper icrementing using semaphores when the increment is very slow
+farmer.c - The farmer/wolf/sheep/cabbage river crossing problem using semaphores
+diningphilosopher.c - The dining philosophers problem implemneted using semaphores
+
+*_p.c - The same problem but implemeted using pipes instead of semaphores
+
